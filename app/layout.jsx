@@ -47,7 +47,7 @@ export default async function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <meta name="google-site-verification" content="CpLE4QUD_fxLAV31KZi1i5v0dPZntXH78MwOxJPnXtU" />
+        <meta name="google-site-verification" content="Se7ANXMHhQE8UcpZ712du7xGvzOc6WVSJvIC3jNq63A" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://tubistream.netlify.app" />
         
@@ -99,7 +99,7 @@ export default async function RootLayout({ children }) {
               <div className="max-w-7xl mx-auto px-4 flex justify-center">
                 <AdBanner 
                   adId="728x90_header"
-                  scriptKey="5d9f3d0f55bfc3e1408dc8cdbb687e63"
+                  scriptKey="3d1408b844b464ea3e56c55b902a76d4"
                   height={90} 
                   width={728}
                   className="rounded-lg overflow-hidden shadow-lg"
@@ -112,7 +112,7 @@ export default async function RootLayout({ children }) {
             </main>
             
             <footer className="w-full max-w-7xl mx-auto px-4 py-8">
-              <div id="container-a52ccbacbc0d553d99e20f9a168d288f"></div>
+              <div id="container-0c3936a0836360294dfab67f66d3191a"></div>
               <Footer />
             </footer>
           </div>
