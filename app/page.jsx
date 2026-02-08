@@ -58,7 +58,7 @@ export default function About() {
           <section className="mb-16">
             <div className="text-center mb-12">
               <img
-                src="https://live.staticflickr.com/65535/55030534731_a799877959_b.jpg"
+                src="https://live.staticflickr.com/65535/55082774902_18a9833ffb_b.jpg"
                 alt="Movie streaming platform - Watch movies online in HD quality"
                 width={1024}
                 height={416}

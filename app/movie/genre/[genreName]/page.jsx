@@ -14,17 +14,17 @@ export async function generateMetadata({ params }) {
   const genre = genres.find(g => g.name.toLowerCase().replace(/\s/g, '-') === genreName);
   const title = genre?.name || 'Unknown';
 
-  const pageUrl = `https://cinevisio.netlify.app/movie/genre/${genreName}`;
-  const imageUrl = 'https://live.staticflickr.com/65535/55081939741_c1e4e196be_b.jpg';
+  const pageUrl = `https://tubistream.netlify.app/movie/genre/${genreName}`;
+  const imageUrl = 'https://live.staticflickr.com/65535/55082774902_18a9833ffb_b.jpg';
 
   return {
-    title: `Cinevisio - ${title} Movies`,
-    description: `Find and watch the best ${title} movies for free on Cinevisio.`,
+    title: `TubiStream - ${title} Movies`,
+    description: `Find and watch the best ${title} movies for free on TubiStream.`,
     openGraph: {
-      title: `Cinevisio - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on Cinevisio.`,
+      title: `TubiStream - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on TubiStream.`,
       url: pageUrl,
-      siteName: 'Cinevisio',
+      siteName: 'TubiStream',
       images: [
         {
           url: imageUrl,
@@ -40,8 +40,8 @@ export async function generateMetadata({ params }) {
       card: 'summary_large_image',
       site: '@WatchStream123',
       creator: '@WatchStream123',
-      title: `Cinevisio - ${title} Movies`,
-      description: `Find and watch the best ${title} movies for free on Cinevisio.`,
+      title: `TubiStream - ${title} Movies`,
+      description: `Find and watch the best ${title} movies for free on TubiStream.`,
       images: [imageUrl],
     },
     other: {

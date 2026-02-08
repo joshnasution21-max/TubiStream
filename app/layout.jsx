@@ -16,7 +16,7 @@ export const metadata = {
     siteName: 'TubiStream',
     images: [
       {
-        url: 'https://live.staticflickr.com/65535/55030534731_a799877959_b.jpg',
+        url: 'https://live.staticflickr.com/65535/55082774902_18a9833ffb_b.jpg',
         width: 1200,
         height: 630,
         alt: 'TubiStream - Watch Movies Online Free and Stream TV Series',
@@ -31,7 +31,7 @@ export const metadata = {
     creator: '@WatchStream123',
     title: 'Watch Movies Online Free | Stream TV Series HD - TubiStream',
     description: 'Find where to watch movies & TV series online for free or on Netflix, Disney+, Prime Video. Streaming guides and recommendations.',
-    images: ['https://live.staticflickr.com/65535/55030534731_a799877959_b.jpg'],
+    images: ['https://live.staticflickr.com/65535/55082774902_18a9833ffb_b.jpg'],
   },
   // Tambahkan tag meta eksplisit untuk Facebook
   other: {
@@ -78,7 +78,7 @@ export default async function RootLayout({ children }) {
               "@type": "Organization",
               "name": "TubiStream",
               "url": "https://tubistream.netlify.app",
-              "logo": "https://live.staticflickr.com/65535/55030534731_a799877959_b.jpg",
+              "logo": "https://live.staticflickr.com/65535/55082774902_18a9833ffb_b.jpg",
               "description": "Streaming guide and movie database",
               "sameAs": [
                 "https://twitter.com/WatchStream123",
